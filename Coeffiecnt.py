@@ -17,7 +17,6 @@ corr = stats.pearsonr(x, y)
 print("All salespersons" ,corr)
 
 
-
 x1=Ourdf.loc[Ourdf['Salesperson'] == 1, 'Course spend']
 y1=Ourdf.loc[Ourdf['Salesperson'] == 1, 'Total Sales']
 
